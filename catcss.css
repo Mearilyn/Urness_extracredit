@@ -1,0 +1,25 @@
+@import url(https://github.com/Mearilyn/extra_credit/blob/master/photo-1497473376897-16fbb7552478.jpg?raw=true);
+
+body{
+		margin: 0 auto;
+}
+header {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	background-image: url(https://images.unsplash.com/photo-1497473376897-16fbb7552478?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	background-color: #e630ea;
+	background-blend-mode: lighten;
+
+}
+
+p {
+	font-family: "Margarine", cursive;
+	font-size: 5vh;
+	display: flex;
+	flex-wrap: wrap;
+	width: 90vh;
+}
