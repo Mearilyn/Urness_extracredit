@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+
+
+
+section{
+	display:flex;
+	flex-flow:column-wrap;
+	justify-content:center;
+	
+					}
+
+div{
+	display:flex;
+	width:20%;
+	height:500px;
+	justify-content:flex-end;
+	flex-direction:column;
+	align-items:center;
+	padding:20px
+		}
+h1,h2{
+	color:white;
+	font-family: 'Rubik', sans-serif;
+}
+h1{
+	text-transform: uppercase;
+	font-size:12px;
+	margin: -5px;
+}
+a{
+	font-family: 'Rubik', sans-serif;
+	text-transform: uppercase;
+	display:flex;
+	justify-content:center;
+	text-decoration:none;
+	background-color:#EFD85D;
+	color:black;
+	width:60%;
+	padding:15px;
+	border-radius: 5px;
+	
+}
+
+#one, #two, #three, #four{
+	margin:10px;
+	border-radius: 10px;
+	background-repeat:no-repeat;
+}
+
+#one{
+	background-image:url(https://github.com/Mearilyn/extra_credit/blob/master/rolands-varsbergs-1436787-unsplash.png?raw=true);
+			}
+#two{
+	background-image:url(https://github.com/Mearilyn/extra_credit/blob/master/shifaaz-shamoon-370863-unsplash.png?raw=true);
+		}
+#three{
+	background-image:url(https://github.com/Mearilyn/extra_credit/blob/master/eberhard-grossgasteiger-382452-unsplash.png?raw=true);
+		}
+#four{
+	background-image:url(https://github.com/Mearilyn/extra_credit/blob/master/emily-toycen-530039-unsplash.png?raw=true);
+			}
+
+
+@media only screen and (max-width: 1000px){
+	
+	section{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+					}
+	
+}
+	
